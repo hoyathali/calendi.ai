@@ -6,7 +6,8 @@ from googleapiclient.discovery import build
 import requests
 import base64
 
-REDIRECT_URI = 'http://localhost:8501'
+#REDIRECT_URI = 'http://localhost:8501'
+REDIRECT_URI='https://calendi.streamlit.app'
 CLIENT_ID = '249288731224-tjbb7680cp7t8rqqshvr4827s12hmi6o.apps.googleusercontent.com'
 CLIENT_SECRET = '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'
 PROJECT_ID = 'calendi-422102'
