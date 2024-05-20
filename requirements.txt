@@ -1,3 +1,4 @@
 google_auth_oauthlib
 google-api-python-client
 streamlit_option_menu
+openai
