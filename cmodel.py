@@ -168,7 +168,7 @@ def setupModelandChat():
         if len(messages_with_context) > MAX_CONTEXT_LENGTH:
             messages_with_context = messages_with_context[-MAX_CONTEXT_LENGTH:]
         
-        print(messages_with_context)
+        #print(messages_with_context)
         
         with st.chat_message("assistant"):
             stream = client.chat.completions.create(
